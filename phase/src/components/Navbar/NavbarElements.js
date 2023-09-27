@@ -9,6 +9,8 @@ display: flex;
 justify-content: space-between;
 padding: 0.2rem calc((100vw - 1000px) / 2);
 z-index: 12;
+position: sticky;
+top: 10px;
 /* Third Nav */
 /* justify-content: flex-start; */
 `;
