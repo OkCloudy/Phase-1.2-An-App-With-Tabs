@@ -28,6 +28,7 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages';
 import Page1 from './pages/page1';
 import Page2 from './pages/page2';
 import Page3 from './pages/page3';
@@ -41,13 +42,13 @@ return (
 	<Router>
 	<Navbar />
 	<Routes>
-		<Route path='/' exact component={Page1} />
-		<Route path='/page1' component={Page1} />
-		<Route path='/page2' component={Page2} />
-		<Route path='/page3' component={Page3} />
-		<Route path='/page4' component={Page4} />
-		<Route path='/page5' component={Page5} />
-		<Route path='/page6' component={Page6} />
+		<Route path='/' element={<Home />} />
+		<Route path='/page1' element={<Page1 />} />
+		<Route path='/page2' element={<Page2 />} />
+		<Route path='/page3' element={<Page3 />} />
+		<Route path='/page4' element={<Page4 />} />
+		<Route path='/page5' element={<Page5 />} />
+		<Route path='/page6' element={<Page6 />} />
 	</Routes>
 	</Router>
 );

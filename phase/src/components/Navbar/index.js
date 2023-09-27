@@ -10,7 +10,7 @@ NavBtnLink,
 
 const Navbar = () => {
 return (
-	<>
+	
 	<Nav>
 		<Bars />
 
@@ -40,7 +40,7 @@ return (
 		<NavBtnLink to='/signin'>Sign In</NavBtnLink>
 		</NavBtn> */}
 	</Nav>
-	</>
+
 );
 };
 
