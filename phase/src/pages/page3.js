@@ -1,10 +1,9 @@
 import React from 'react';
+import ToDo from '../components/ToDo';
 
 const Page3 = () => {
 return (
-	<div>
-	<h1>TAB 3</h1>
-	</div>
+	<ToDo />
 );
 };
 

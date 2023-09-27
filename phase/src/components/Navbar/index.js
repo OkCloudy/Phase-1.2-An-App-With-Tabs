@@ -10,35 +10,28 @@ NavBtnLink,
 
 const Navbar = () => {
 return (
-	
 	<Nav>
 		<Bars />
-
 		<NavMenu>
 		<NavLink to='/page1' activeStyle>
-			Page1
+        Text
 		</NavLink>
 		<NavLink to='/page2' activeStyle>
-			Page2
+        Choices
 		</NavLink>
         <NavLink to='/page3' activeStyle>
-			Page3
+        To Do
 		</NavLink>
         <NavLink to='/page4' activeStyle>
-			Page4
+        Profile
 		</NavLink>
         <NavLink to='/page5' activeStyle>
-			Page5
+        Colors
 		</NavLink>
         <NavLink to='/page6' activeStyle>
-			Page6
+        Lower Right
 		</NavLink>
-		{/* Second Nav */}
-		{/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
 		</NavMenu>
-		{/* <NavBtn>
-		<NavBtnLink to='/signin'>Sign In</NavBtnLink>
-		</NavBtn> */}
 	</Nav>
 
 );
