@@ -18,19 +18,23 @@ const Page4 = () => {
   return (
     <div style={styles}>
       <h1>Profile</h1>
-      <img
-        class="smile-picture"
-        src="https://hotemoji.com/images/emoji/1/1bcqozl6q531.png"
-        alt="smile"
-        height={200}
-        width={200}
-        // style={{ aligi: 'center',
-        // justifyContent: 'center' }}
-        style={{ alignSelf: "center" }}
-        onClick={notification}
-      />
+      <center>
+        <img
+          class="smile-picture"
+          src="https://hotemoji.com/images/emoji/1/1bcqozl6q531.png"
+          alt="smile"
+          height={200}
+          width={200}
+          // style={{ aligi: 'center',
+          // justifyContent: 'center' }}
+          style={{ alignSelf: "center" }}
+          onClick={notification}
+        />
+      </center>
 
-      <h1 className="head"> XXX </h1>
+      <center>
+        <h1> XXX </h1>
+      </center>
     </div>
   );
 };
