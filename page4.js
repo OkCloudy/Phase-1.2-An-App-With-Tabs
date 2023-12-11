@@ -39,14 +39,4 @@ const Page4 = () => {
   );
 };
 
-function notification() {
-	alert('Warning!');
-}
-return(
-	<div style={styles}>
-		<img
-			
-	 	/>
-	</div>
-)
 export default Page4;
